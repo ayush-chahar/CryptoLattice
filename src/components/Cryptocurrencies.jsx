@@ -31,7 +31,8 @@ const Cryptocurrencies = ({ simplified }) => {
 
   return (
     <>
-      {!simplified && (
+     <div className="search-crypto-container">
+     {!simplified && (
         <div className="search-crypto">
           <Input
             placeholder="Search Cryptocurrency"
@@ -39,6 +40,7 @@ const Cryptocurrencies = ({ simplified }) => {
           />
         </div>
       )}
+      </div>
       <div className="crypto-content">
         <Row gutter={[32, 32]} className="crypto-card-container">
           {cryptos?.slice(0, displayCount).map((currency) => (
