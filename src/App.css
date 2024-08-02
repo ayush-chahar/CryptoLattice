@@ -406,7 +406,8 @@ a:hover {
 .search-crypto {
     position: fixed;
     top: 0;
-    width: 77.25%;
+    left: 20%;
+    right: 20px; /* Create a margin on the right by setting the right property */
     z-index: 1000;
     background: #F9F9F9;
     padding: 10px 20px;
@@ -414,18 +415,17 @@ a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
-    margin-left: 0px;
-
 }
-  
-  .search-crypto input {
+
+.search-crypto input {
     width: 100%;
     padding: 8px;
     border: 1px solid #d9d9d9;
     border-radius: 4px;
-  }
-  
-  .crypto-content {
+}
+
+.crypto-content {
     margin-top: 70px; /* Adjust based on the actual height of the search bar */
-  }
+}
+
   
