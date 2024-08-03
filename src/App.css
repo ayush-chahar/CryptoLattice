@@ -69,6 +69,7 @@ a:hover {
     font-size: 1.2rem !important;
     background-color: var(--bgSecondary) !important;
     border: none !important;
+    padding: 0px 15px !important;
 }
 
 .loader {
