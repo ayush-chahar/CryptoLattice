@@ -30,16 +30,12 @@ const Cryptocurrencies = ({ simplified }) => {
   };
 
   return (
-    <>
-      <div className="search-crypto-container">
-        {!simplified && (
-          <div className="search-crypto">
-            <Input
-              placeholder="Search Cryptocurrency"
-              onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
-            />
-          </div>
-        )}
+    <div className="crypto-container">
+      <div className="search-crypto">
+        <Input
+          placeholder="Search Cryptocurrency"
+          onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
+        />
       </div>
       <div className="crypto-content">
         <Row gutter={[32, 32]} className="crypto-card-container">
@@ -72,7 +68,7 @@ const Cryptocurrencies = ({ simplified }) => {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 

@@ -30,7 +30,6 @@ a:hover {
 .main {
     flex: 0.8;
     width: 100%;
-
 }
 
 .routes {
@@ -193,7 +192,6 @@ a:hover {
     font-size: 1rem;
     opacity: 0.9;
     padding: 20px;
-
 }
 
 .coin-stats-name {
@@ -404,17 +402,8 @@ a:hover {
 }
 
 .search-crypto {
-    position: fixed;
-    top: 0;
-    left: 20%;
-    right: 20px; /* Create a margin on the right by setting the right property */
-    z-index: 1000;
-    background: #F9F9F9;
-    padding: 10px 20px;
-    border-bottom: 2px solid #d9d9d9;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .search-crypto input {
@@ -425,7 +414,5 @@ a:hover {
 }
 
 .crypto-content {
-    margin-top: 70px; /* Adjust based on the actual height of the search bar */
+    margin-top: 20px;
 }
-
-  
