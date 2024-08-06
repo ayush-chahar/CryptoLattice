@@ -22,7 +22,7 @@ const News = ({ simplified }) => {
     // console.log('News data:', cryptoNews);
     // console.log(process.env.NEWS_API_KEY)
     if (error) {
-      console.error('API Error:', error);
+      console.log('API Error:', error);
     }
   }, [data, cryptoNews, error]);
 

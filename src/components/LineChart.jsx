@@ -47,5 +47,5 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
     </>
   );
 };
-
 export default LineChart;
+

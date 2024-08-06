@@ -12,10 +12,7 @@ export const cryptoNewsApi = createApi({
     baseUrl: 'https://newsapi.org/v2',
   }),
   endpoints: (builder) => ({
-    getCryptoNews: builder.query({
-      query: ({ newsCategory, count }) =>
-        createRequest(`/everything?q=${newsCategory}&from=2024-07-31&sortBy=popularity&pageSize=${count}&apiKey=674525a1f2f74c86a32a18281991c21f`),
-    }),
+    getCryptoNews: builder.query({ query: ({ newsCategory, count }) => createRequest(`/everything?q=${newsCategory}&from=2024-07-31&sortBy=popularity&pageSize=${count}&apiKey=674525a1f2f74c86a32a18281991c21f`) }),
   }),
 });
 
