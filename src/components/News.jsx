@@ -14,7 +14,7 @@ const { Option } = Select;
 const News = ({ simplified }) => {
   const [newsCategory, setNewsCategory] = useState('crypto');
   const { data } = useGetCryptosQuery(100);
-  const { data: cryptoNews, error, isLoading } = useGetCryptoNewsQuery({ newsCategory, count: simplified ? 6 : 12, NEWS_API: process.env.NEWS_API });
+  const { data: cryptoNews, error, isLoading } = useGetCryptoNewsQuery({ newsCategory, count: simplified ? 6 : 12 });
 
   // Log API responses and errors
   useEffect(() => {
