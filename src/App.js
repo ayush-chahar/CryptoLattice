@@ -24,7 +24,7 @@ const App = () => (
       </Layout>
       <div className="footer">
         <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
-          Copyright © 2021
+          Copyright © 2024
           <Link to="/"> CryptoLattice Inc. </Link> <br />
           All Rights Reserved.
         </Typography.Title>
